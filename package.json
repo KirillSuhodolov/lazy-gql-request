@@ -1,0 +1,27 @@
+{
+  "name": "lazy-gql-request",
+  "version": "1.0.2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "keywords": [
+    "hasura",
+    "gql",
+    "prototyping",
+    "react",
+    "node.js",
+    "next.js"
+  ],
+  "author": "KirillSuhodolov",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-request": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
